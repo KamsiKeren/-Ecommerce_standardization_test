@@ -1,5 +1,5 @@
 .container_green {
-  height: 58px;
+  /* height: 58px; */
   padding: 9px 0px 3px 0px;
   gap: 324px;
   /* border-radius: 34px 0px 0px 0px; */
@@ -7,7 +7,6 @@
   background: #23856d;
   cursor: pointer;
 }
-
 
 .numbers > a {
   color: white;
@@ -27,12 +26,14 @@
 }
 .social_media > a {
   color: white;
+}
+.container.white{
+  background-color: white;
+  color: white;
 
 }
-.container_white {
-  height: 58px;
-  padding: 0px 17px 0px 38px;
+.container.white> span {
   background-color: white;
-  cursor: pointer;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
